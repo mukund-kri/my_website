@@ -1,3 +1,21 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Mukund K'
+
+theme = 'hyde'
+
+[params]
+  
+    description = """
+I'm a Programmer, Coding Bootcamp Mentor and Technical Architect in that order.
+I have also been dabling Data Science and Statistics for a while now.
+"""
+
+[Menus]
+  main = [
+      {Name = "About Me", URL = "/about"},
+      {Name = "Resume", URL = "/about/resume"},
+      {Name = "Bootcamps", URL = "/bootcamps"},
+      {Name = "Github", URL = "https://github.com/username/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
+  ]
